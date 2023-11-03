@@ -64,7 +64,7 @@ fun BottonText(){
 @Composable
 fun ButtonOutline(){
     OutlinedButton(onClick ={/*TODO*/}, border = BorderStroke(3.dp, Color.Blue)) {
-        Text(text = "Mi BottonLinea", fontSize = 30.sp)
+        Text(text = "Mi BottonLinea", fontSize = 40.sp)
     }
 }
 
@@ -75,8 +75,8 @@ fun ButtonIcono(){
         Icon(
             Icons.Filled.Home,
             contentDescription = "Icono",
-            tint = Color.Red,
-            modifier = Modifier.size(50.dp)
+            tint = Color.Yellow,
+            modifier = Modifier.size(40.dp)
         )
 
     }
