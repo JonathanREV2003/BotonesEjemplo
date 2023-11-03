@@ -49,7 +49,7 @@ fun Botton2(){
         )
 
     ) {
-        Text(text = "My Button2", fontSize = 30.sp)
+        Text(text = "My Button2 agregando mas caratestes al nombre", fontSize = 30.sp)
     }
 }
 //Boton texto
